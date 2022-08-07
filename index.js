@@ -7,7 +7,6 @@ function introduction (name) {
     return `Hi, my name is ${name}.`;
 }
 }
-console.log(name);
 
 const language = "Ember.js";
 
@@ -17,10 +16,8 @@ function introductionWithLanguage (name, language){
 } else if (name === "Samip", language === "React"){
     return `Hi, my name is ${name} and I am learning to program in ${language}.`;
 }
-};
-console.log (name, language);
+}
 
 function introductionWithLanguageOptional (name = "Gracie", language = "JavaScript") {
     return `Hi, my name is ${name} and I am learning to program in ${language}.`;
 }
-console.log(name, language);
